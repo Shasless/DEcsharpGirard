@@ -6,8 +6,11 @@ namespace DEcsharpGirard
     {
         static void Main(string[] args)
         {
+            Ex1 ex1 = new Ex1();
+            Ex7 ex7 = new Ex7();
             Ex8 ex8 = new Ex8();
-            Console.WriteLine("BLACJACK ");
+            ex1.armstrong();
+            ex7.run();
             ex8.run();
             
         }

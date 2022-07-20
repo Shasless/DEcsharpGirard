@@ -8,6 +8,7 @@ namespace DEcsharpGirard
     {
         public  void run()
         {
+            
             string a = "";
             
             while (a != "q")
@@ -40,6 +41,8 @@ namespace DEcsharpGirard
             HandD.Add(Deck[2]);
             HandP.Add(Deck[1]);
             HandP.Add(Deck[3]);
+
+   
             showHand();
             if (count(HandP) == 21)
             {
