@@ -87,11 +87,11 @@ namespace DEcsharpGirard
         {
             
             Random rng = new Random(); 
-            int k = rng.Next(27);  
+            int k = rng.Next(50);  
 
             Words =new List<string>
             {
-                "test","object","culture","curious","dance","gift","golden","governement","piano","possibility","read","remarkable","remote","require","Console","player","underscore","proper","Words","between","Strings","Right","throw","simulate","bowling","strike","spare","display"
+                "test","object","culture","curious","dance","gift","golden","governement","piano","possibility","read","remarkable","remote","require","Console","player","underscore","proper","Words","between","Strings","Right","throw","simulate","bowling","strike","spare","display","compute","simple","twice","draw","good","luck","obviously","website","warning","exercice","solution","separete","administration","difficulty","unplayable","natural","lower","greater","rock","paper","scisor","exam","link"
                 
             };
             Word = Words[k];
